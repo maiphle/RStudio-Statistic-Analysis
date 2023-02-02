@@ -16,11 +16,13 @@ sd(dat$Sales)
 mean(dat$Sales)
 summary(dat$Sales)
 
-#Check normality of 'sales' variable
-boxplot(dat$Sales,main = "Boxplot of Sales", xlab = "Sales")
-hist(dat$Sales,main = "Histogram of Sales", xlab = "Sales", ylab = "Frequency")
-qqnorm(dat$Sales, main = "Normal Prob Plot for Sales")
-qqline(dat$Sale)
+Sales
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. SD
+   1.60   10.38   12.90   14.02   17.40   27.00 5.21
+TV
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. SD
+   0.70   74.38  149.75  147.04  218.82  296.40 85.85
+
 
 #The data is normally distributed around mean of 15,000 units with a slight right skew.
 
