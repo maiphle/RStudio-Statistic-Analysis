@@ -56,10 +56,6 @@ cor(x,y, method = "kendall")
 #model
 newModel3 <- lm(Sales ~ TV, data = dat)
 
-#If there is missing data, there are two options:
-newModel4 <- lm(y ~ x, na.action = na.fail)	#Model fails if there are missing values
-newModel5 <- lm(y ~ x, na.action = na.omit)	#Model excludes missing data & fits models
-
 #View regression results
 summary(newModel3) #
 
